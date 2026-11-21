@@ -1594,40 +1594,6 @@ section {
     color: #d8b4fe;
 }
 
-.floating-cv {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.9rem 1.5rem;
-    border-radius: 999px;
-    background: white;
-    color: #1f1239;
-    font-weight: 700;
-    text-decoration: none;
-    box-shadow: 0 10px 24px rgba(255, 255, 255, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    animation: cvPulse 2.2s ease-in-out infinite;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.floating-cv:hover {
-    transform: translateY(-50%) scale(1.03);
-    box-shadow: 0 16px 30px rgba(255, 255, 255, 0.18);
-}
-
-@keyframes cvPulse {
-    0%, 100% {
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.18);
-    }
-    50% {
-        box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.02);
-    }
-}
-
 /* ==================== Responsive Design ==================== */
 @media (max-width: 768px) {
     .hamburger {
