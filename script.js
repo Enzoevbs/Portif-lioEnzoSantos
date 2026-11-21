@@ -316,12 +316,13 @@ const typeWriter = (element, text, speed = 100) => {
     type();
 };
 
-// Aplicar efeito de digitação no título
+// Aplicar efeito de digitação apenas ao nome destacado
 window.addEventListener('load', () => {
-    const heroTitle = document.querySelector('.hero-title');
-    if (heroTitle) {
-        const originalText = heroTitle.textContent;
-        typeWriter(heroTitle, originalText, 50);
+    const heroName = document.querySelector('.hero-title .highlight');
+    if (heroName) {
+        const originalName = heroName.textContent;
+        heroName.textContent = '';
+        typeWriter(heroName, originalName, 50);
     }
 });
 
