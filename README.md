@@ -2,7 +2,7 @@
 
 Portfólio pessoal com projetos, habilidades, formação e experiências.
 
-**Acesse o site:** = https://enzoevbs.github.io/Portif-lioEnzoSantos/?v=20261121
+**Acesse o site:** 
 ## Executar localmente
 
 Abra `index.html` em um navegador. Os estilos, scripts, imagens e documentos
